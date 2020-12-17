@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <script src="style.js"></script>
+   
+<head>
+    <link rel ="stylesheet" href ="style.css">
+    <title>
+        Elma's resume
+    </title>
+    </head>
+
+    <body>
+        <header class="main"> <h1>Resume</h1>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button> 
+                </button>
+                <div class="dropdown-content">
+                    <a href="#education" onclick="scrollToEducation('education')">Education</a>
+                    <a href="#work" onclick="scrollToEducation('workexp')">Work experince</a>
+                    <a href="#skills" onclick="scrollToEducation('skills')">Skills</a>
+                    <a href="#other">Other activities</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            </header> <br/>
+            
+            <dl>
+                <dt>
+                    <img src="profile_picuture.jpg">
+                    <dd id="intro">
+                        <b><br/>Elma Lekic Katica <br/>
+                        28.06.1997. <br/>
+                        Antuna Hangija 115, 71000 Sarajevo <br/>
+                        +38762422990 <br/></b>
+                    </dd>
+                </dt><br/>
+            </dl>
+        
+        <div class="content1">
+     <div class ="left">
+        <section>
+        <div id="education" style="text-decoration:underline">EDUCATION
+        </div>
+        <p>
+        <b>
+            Computer science and engineering</b>
+        </p>
+        <p>International University of Sarajevo
+        </p>
+        <p><small>
+            2015- present</small>
+        </p>
+        
+        <p>
+            <b>Courses </b>
+       
+     <li>Programming and Problem Solving </li>
+      <li>Web Development</li>
+       <li>Database Systems</li>
+        <li>System Analysis and Design</li>
+        </p>
+       </section>
+
+         <section>
+
+      <div id="workexp" style="text-decoration:underline">WORK EXPERIENCE
+        </div>
+        <p>Volunteer manager
+        </p>
+         <p><small>
+            12/2018-2/2019</small>
+                </p>
+            </section> 
+            <section>
+ <div id="skills" style="text-decoration:underline">SKILLS
+ </div>  
+ <p>
+        <li>  MS OfficeL</li>
+        <li>  C++</li>
+        <li>  Java</li>
+        <li>  MySQL</li>
+        <li> HTML</li>
+        </p>
+    </section>
+    
+        <section>
+        <div id="languages" style="text-decoration:underline">LANGUAGES
+        </div> 
+        <p> Bosnian</p>
+       
+        <p> English</p>
+        
+        <p> Turkish</p>
+    </section>
+<section>
+          <div id="interests" style="text-decoration:underline">INTERESTS
+          </div> 
+        
+        <li>  Programming</li>
+        <li>  Digital Marketing</li>
+        <li>  Learning</li>
+        <li>  Traveling</li>
+        <li>  Research</li>
+    </section>
+       
+    </div>
+
+</div>
+<dl>
+    <form class="form" action="resume.php" method="POST">
+        <table id="tt">
+        <p style="color:darkpurple">* required field</p>
+            <tr>
+                <td>*First and Last Name </td>
+                <td><input type="text" id="name" name="name" required="1" /></td>
+            </tr>
+            <tr>
+                <td>*E-mail Address </td>
+                <td><input type="text" id="email" name="email" required="1"/></td>
+            </tr>
+
+            <tr>
+                <td>Your Message: </td>
+                <td><textarea name="message" id="message" rows="10" cols="25" required="1"></textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" id="submit" name="submit" value="Submit"></td>
+            </tr>
+        </table>
+</dl>
+<hr/>
+    
+    <div class="footer"></div>
+        
+</body>
+
+</html>

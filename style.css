@@ -1,0 +1,129 @@
+.content { 
+    position: relative ;
+    overflow:auto; 
+    width: 100%; 
+    height: 100%;
+    background: rgb(18, 150, 128); 
+    
+  } 
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: rgb(18, 150, 128);
+   
+}
+  .dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+#intro {
+  margin-left: 350px;
+  margin-top: -200px;
+  font-size: larger;
+}
+header {
+  text-align: left;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+  
+  .content1{
+    position: relative ;
+    overflow:auto; 
+    width: 100%; 
+    height: 100%;
+    text-align: left;
+  }
+  .left {    
+    padding-left: 1px;
+	padding-top: 1px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color:#153E7E;
+    padding-top:-15px;
+    width: 100%;
+    height: 100%; 
+    margin: 0 auto; 
+    margin-top: 40px;
+    padding: 1em;
+    
+    background-color: aquamarine;
+    
+
+  }
+  .left{ float:left;}
+
+  #firstname{
+font-size-adjust: initial 2;
+  }
+ 
+#education, #workexp, #skills, #languages, #interests 
+{
+    margin-top: 1px;
+    margin-left: 1px;
+    background-color: rgb(95, 206, 169);
+    opacity: 100%;
+    
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid black;
+  border-radius: 5px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: violet;
+}
+
+
+        
+
+   
